@@ -138,7 +138,7 @@ if [ $IS_ENTERPRISE = "True" ]; then
 fi
 
 echo -e "\n==== Installing mandatory requirement ===="
-sudo pip3 install -r $OE_HOME_EXT/requirement.txt
+sudo pip3 install -r $OE_HOME_EXT/requirements.txt
 
 echo -e "\n---- Create custom module directory ----"
 sudo su $OE_USER -c "mkdir $OE_HOME/custom"
