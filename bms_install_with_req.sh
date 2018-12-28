@@ -137,7 +137,7 @@ sudo pip3 install -r $OE_HOME_EXT/requirements.txt
 echo -e "\n--- Create symlink for node"
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 
-echo -e "\n---- Installing Enterprise specific libraries ----"
+echo -e "\n---- Installing Web Dependencies ----"
 sudo apt-get install nodejs npm
 sudo npm install -g less
 sudo npm install -g less-plugin-clean-css
